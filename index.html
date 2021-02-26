@@ -1,0 +1,138 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar" class="navbar">
+            <div class="nav-line"></div>
+            <ul class="navbar-list">
+                <li class="navbar-item">
+                    <a class="navbar-link" href="#welcome-section">
+                    <i class="fas fa-home"></i>
+                    Welcome</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="navbar-link" href="#projects">
+                    <i class="fas fa-cubes"></i>
+                    Projects</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="navbar-link" href="#contact">
+                    <i class="fas fa-envelope"></i>
+                    Contact</a>
+                </li>                
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="main-section" id="welcome-section">
+            <div class="greeting-container">
+                <div class="blink-container">
+                <h1 class="greeting">Hi!</h1>
+                <div class="blink-marker"></div>
+                </div>
+                <h2>I'm Manuel Vera. I'm a frontend developer.</h2>
+            </div>
+        </section>
+        <section class="main-section" id="projects">
+            <div class="project-container">
+                <div class="project-text">
+                    
+                    <h2>Projects</h2>
+                    <h3>These are some of the things I've coded:</h3>
+                </div>
+                <div class="project-tiles-container">
+                    <div class="tile-border">
+                    <div class="project-tile" id="tile1">
+                        <a href="https://codepen.io/maalgover/full/NWbrWox">
+                        <img src="https://assets.codepen.io/5640648/internal/screenshots/pens/NWbrWox.default.png?fit=cover&amp;format=auto&amp;ha=false&amp;height=540&amp;quality=75&amp;v=2&amp;version=1612964279&amp;width=960" alt="Tile image" class="project-tile-image">                        
+                        <div class="project-tile-overlay">
+                            <h3 class="project-tile-title">Recipe Archive</h3>
+                            <p class="project-tile-description">An example of technical documentation</p>
+                        </div>
+                        </a>
+                    </div>
+                    </div>
+                    <div class="tile-border">
+                    <div class="project-tile" id="tile2">
+                        <a href="https://codepen.io/maalgover/full/xxEoPxR">
+                        <img src="https://assets.codepen.io/5640648/internal/screenshots/pens/xxEoPxR.default.png?fit=cover&amp;format=auto&amp;ha=true&amp;height=540&amp;quality=75&amp;v=2&amp;version=1612894218&amp;width=960" alt="Tile image" class="project-tile-image">                        
+                        <div class="project-tile-overlay">
+                            <h3 class="project-tile-title">Costumer Survey</h3>
+                            <p class="project-tile-description">A mock form to query product satisfaction</p>
+                        </div>
+                        </a>
+                    </div>
+                    </div>
+                    <div class="tile-border">
+                    <div class="project-tile" id="tile3">
+                       <a href="https://codepen.io/maalgover/full/MWjMjOQ">
+                        <img src="https://assets.codepen.io/5640648/internal/screenshots/pens/MWjMjOQ.default.png?fit=cover&amp;format=auto&amp;ha=false&amp;height=540&amp;quality=75&amp;v=2&amp;version=1612785384&amp;width=960" alt="Tile image" class="project-tile-image">                        
+                        <div class="project-tile-overlay">
+                            <h3 class="project-tile-title">Tribute Page</h3>
+                            <p class="project-tile-description">A memorial to soviet mathematician Leonid Kantorovich</p>
+                        </div>
+                        </a>
+                    </div>
+                    </div>
+                    <div class="tile-border">
+                    <div class="project-tile" id="tile4">
+                        <a target="_blank" class="tile-link" href="https://codepen.io/maalgover/full/gOLmyxK">
+                        <img class="grid-preview-image" loading="lazy" alt=""
+                            src="https://assets.codepen.io/5640648/internal/screenshots/pens/gOLmyxK.default.png?fit=cover&amp;format=auto&amp;ha=true&amp;height=540&amp;quality=75&amp;v=2&amp;version=1614261703&amp;width=960">
+                        <div class="project-tile-overlay">
+                            <h3 class="project-tile-title">CDMX Boroughs</h3>
+                            <p class="project-tile-description">Hover over the different boroughs in Mexico City</p>
+                        </div>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact-section">
+            <div class="contact-text">
+            <h2>Contact</h2>
+            <h3>Would you like to work together? Get in touch!</h3>
+            </div>
+            <div class="contact-form-container">
+                <form class="contact-form"action="">
+                    <label for="name">
+                    <input type="text" name="name" id="" placeholder="Type in your name">
+                    </label>
+                    <label for="email">
+                    <input type="email" name="email" id="" placeholder="Type in your e-mail address">
+                    </label>
+                    <label for="message">
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Your message goes here!"></textarea>
+                    </label>
+                </form>
+            </div>
+            <div class="contact-link-container">
+                <h4>You can also <br> find me here:</h4>
+                <ul class="contact-link-list">
+                    <li class="contact-link-item">
+                        <a id="profile-link" class="contact-link" href="https://www.freecodecamp.org/maalgover">- Free Code Camp</a>
+                    </li>
+                    <li class="contact-link-item">
+                        <a class="contact-link" href="https://github.com/maalgover">- GitHub</a>
+                    </li>
+                    <li class="contact-link-item">
+                        <a class="contact-link" href="https://codepen.io/maalgover">- CodePen</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <footer>
+            <p>footer text</p>
+        </footer>
+    </main>
+</body>
+</html>
