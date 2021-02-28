@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+body {
+  background-color: #fac988;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+}
+/*---CAPTION---*/
+.caption {
+  display: flex;
+  flex: 1;
+  left: 25vh;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  text-decoration: underline;
+  font-size: 2.2rem;
+}
+
+/*---MAP---*/
+.map {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  animation: mapAni 2s;
+}
+
+@keyframes mapAni {
+  0% {
+    opacity: 0;
+  }
+}
+
+.map svg {
+  stroke-opacity: 1;
+  margin-right: 25vh;
+  margin-top: 10vh;
+  height: 90vh;
+  width: 100%;
+  top: 10vh;
+}
+.map path {
+  fill: "#f0eae1";
+  transition: 0.5s;
+  position: absolute;
+  stroke-width: 0.2;
+  stroke: #000;
+}
+
+/*---FOOTER---*/
+
+footer {
+  position: absolute;
+  height: 5vh;
+  bottom: 3vh;
+  right: 2vw;
+}
+
+a {
+  color: #000;
+}
